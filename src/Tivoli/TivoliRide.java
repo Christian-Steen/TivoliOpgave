@@ -1,3 +1,5 @@
+package Tivoli;
+
 import java.util.Scanner;
 
 public class TivoliRide {
@@ -22,7 +24,7 @@ public class TivoliRide {
         int F2 = 180; // Forlystelse 2 højde krav
         int F3 = 195; // Forlystelse 3 højde krav
 
-        // Requirement 1
+        // Requirements
         if (tall >= F1 && tall < F2){
             System.out.println("You are tall enough for: " + rides[0]);
             System.out.println("You dont meet the height requirement for: " + rides[1] + " & " + rides[2]);
